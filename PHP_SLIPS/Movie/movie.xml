@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MovieInfo>
+  <Movie>
+    <MovieNo>1</MovieNo>
+    <MovieTitle>RRR</MovieTitle>
+    <ActorName>Ram Charan</ActorName>
+    <ReleaseYear>2022</ReleaseYear>
+  </Movie>
+  <Movie>
+    <MovieNo>2</MovieNo>
+    <MovieTitle>Pushpa</MovieTitle>
+    <ActorName>Allu Arjun</ActorName>
+    <ReleaseYear>2021</ReleaseYear>
+  </Movie>
+  <Movie>
+    <MovieNo>3</MovieNo>
+    <MovieTitle>KGF</MovieTitle>
+    <ActorName>Yash</ActorName>
+    <ReleaseYear>2018</ReleaseYear>
+  </Movie>
+  <Movie>
+    <MovieNo>4</MovieNo>
+    <MovieTitle>Jawan</MovieTitle>
+    <ActorName>Shah Rukh Khan</ActorName>
+    <ReleaseYear>2023</ReleaseYear>
+  </Movie>
+  <Movie>
+    <MovieNo>5</MovieNo>
+    <MovieTitle>Pathaan</MovieTitle>
+    <ActorName>Shah Rukh Khan</ActorName>
+    <ReleaseYear>2023</ReleaseYear>
+  </Movie>
+</MovieInfo>

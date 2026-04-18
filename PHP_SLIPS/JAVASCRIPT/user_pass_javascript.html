@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Membership Form</title>
+</head>
+<body>
+
+<form onsubmit="return validateForm()">
+    Username: <input type="text" id="username"><br><br>
+    Password: <input type="password" id="password"><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+<script>
+function validateForm() {
+
+    var uname = document.getElementById("username").value;
+    var pass = document.getElementById("password").value;
+
+    // Username validation
+    if (uname == "") {
+        alert("Username cannot be empty");
+        return false;
+    }
+
+    if (uname.length < 5) {
+        alert("Username must be at least 5 characters");
+        return false;
+    }
+
+    // Password validation
+    if (pass == "") {
+        alert("Password cannot be empty");
+        return false;
+    }
+
+    if (pass.length < 6) {
+        alert("Password must be at least 6 characters");
+        return false;
+    }
+
+    alert("Form submitted successfully!");
+    return true;
+}
+</script>
+
+</body>
+</html>

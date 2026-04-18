@@ -1,0 +1,39 @@
+<html>
+<head>
+<script>
+function validateForm() {
+    var uname = document.getElementById("uname").value;
+    var pass = document.getElementById("pass").value;
+
+    if(uname == "") {
+        alert("Enter Username");
+        return false;
+    }
+
+    if(pass == "") {
+        alert("Enter Password");
+        return false;
+    }
+
+    if(pass.length < 4) {
+        alert("Password must be at least 4 characters");
+        return false;
+    }
+
+    alert("Login Successful");
+    return true;
+}
+</script>
+</head>
+
+<body>
+
+<form onsubmit="return validateForm()">
+Username: <input type="text" id="uname"><br><br>
+Password: <input type="password" id="pass"><br><br>
+
+<input type="submit" value="Login">
+</form>
+
+</body>
+</html>

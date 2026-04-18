@@ -1,0 +1,31 @@
+<html>
+<head>
+<script>
+function fibo() {
+    var n = document.getElementById("num").value;
+    var a = 0, b = 1, c;
+
+    var result = a + " " + b;
+
+    for(var i=2; i<n; i++) {
+        c = a + b;
+        result = result + " " + c;
+        a = b;
+        b = c;
+    }
+
+    document.getElementById("ans").innerHTML = result;
+}
+</script>
+</head>
+
+<body>
+
+Enter number: <input type="text" id="num"><br><br>
+
+<button onclick="fibo()">Print Fibonacci</button>
+
+<p id="ans"></p>
+
+</body>
+</html>

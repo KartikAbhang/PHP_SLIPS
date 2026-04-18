@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Remove Div Example</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<div id="mydiv">
+    <h2>This is a DIV section</h2>
+    <p>Click button to remove this section.</p>
+</div>
+
+<button id="btn">Remove Div</button>
+
+<script>
+$(document).ready(function(){
+
+    $("#btn").click(function(){
+
+        // Remove div using id selector
+        $("#mydiv").remove();
+
+    });
+
+});
+</script>
+
+</body>
+</html>

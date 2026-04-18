@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MovieCDStore>
+
+    <!-- Classical Category -->
+    <Classical>
+        <Movie>
+            <MovieTitle>Mughal-e-Azam</MovieTitle>
+            <ActorName>Dilip Kumar</ActorName>
+            <ReleaseYear>1960</ReleaseYear>
+        </Movie>
+        <Movie>
+            <MovieTitle>Guide</MovieTitle>
+            <ActorName>Dev Anand</ActorName>
+            <ReleaseYear>1965</ReleaseYear>
+        </Movie>
+    </Classical>
+
+    <!-- Horror Category -->
+    <Horror>
+        <Movie>
+            <MovieTitle>The Conjuring</MovieTitle>
+            <ActorName>Vera Farmiga</ActorName>
+            <ReleaseYear>2013</ReleaseYear>
+        </Movie>
+        <Movie>
+            <MovieTitle>Annabelle</MovieTitle>
+            <ActorName>Annabelle Wallis</ActorName>
+            <ReleaseYear>2014</ReleaseYear>
+        </Movie>
+    </Horror>
+
+    <!-- Action Category -->
+    <Action>
+        <Movie>
+            <MovieTitle>KGF</MovieTitle>
+            <ActorName>Yash</ActorName>
+            <ReleaseYear>2018</ReleaseYear>
+        </Movie>
+        <Movie>
+            <MovieTitle>Pathaan</MovieTitle>
+            <ActorName>Shah Rukh Khan</ActorName>
+            <ReleaseYear>2023</ReleaseYear>
+        </Movie>
+    </Action>
+
+</MovieCDStore>

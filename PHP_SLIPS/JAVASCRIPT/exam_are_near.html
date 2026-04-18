@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exam Preparation</title>
+</head>
+<body>
+
+<script>
+// Step 1: Alert message
+alert("Exams are near, have you started preparing?");
+
+// Step 2: Confirm box
+var start = confirm("Have you started preparing?");
+
+// Step 3: Based on confirm
+if (start == true) {
+
+    // Ask subject using prompt
+    var subject = prompt("Which subject are you preparing for?");
+
+    if (subject != null && subject != "") {
+        alert("Good! Keep preparing for " + subject);
+    } else {
+        alert("Please enter a subject name!");
+    }
+
+} else {
+    alert("Start preparing soon! Exams are near.");
+}
+</script>
+
+</body>
+</html>

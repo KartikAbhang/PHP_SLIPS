@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Before After Example</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<button id="btn">Insert Text</button>
+<br><br>
+
+<img id="img" src="C:\xampp\htdocs\PHP_SLIPS\wallpaper.jpg" alt="Sample Image" height="200px" width="200px">
+
+<script>
+$(document).ready(function(){
+
+    $("#btn").click(function(){
+
+        // Insert before image
+        $("#img").before("<p>This text is before the image</p>");
+
+        // Insert after image
+        $("#img").after("<p>This text is after the image</p>");
+
+    });
+
+});
+</script>
+
+</body>
+</html>

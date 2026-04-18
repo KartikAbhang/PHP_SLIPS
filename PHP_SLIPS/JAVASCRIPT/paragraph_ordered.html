@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Append Example</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<p id="para">This is a paragraph.</p>
+
+<ol id="list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+</ol>
+
+<button id="btn">Add Content</button>
+
+<script>
+$(document).ready(function(){
+
+    $("#btn").click(function(){
+
+        // Append text to paragraph
+        $("#para").append(" This is appended text.");
+
+        // Append new list item
+        $("#list").append("<li>New Item</li>");
+
+    });
+
+});
+</script>
+
+</body>
+</html>

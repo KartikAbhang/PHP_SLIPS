@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Books>
+    <yoga>
+        <Book_Title>php</Book_Title> 
+        <Book_Author>ABC</Book_Author> 
+        <Book_Price>499</Book_Price> 
+    </yoga>
+
+    <story> 
+        <Book_Title>php</Book_Title> 
+        <Book_Author>ABC</Book_Author> 
+        <Book_Price>499</Book_Price> 
+    </story>
+    
+    <Technical>
+        <Book_Title>php</Book_Title> 
+        <Book_Author>ABC</Book_Author> 
+        <Book_Price>499</Book_Price> 
+    </Technical>
+</Books>

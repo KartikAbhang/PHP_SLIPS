@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="item.css"?>
+<product>
+    <item>
+        <name>Apple</name>
+        <price>0.50</price>
+        <quantity>100</quantity>
+    </item>
+
+    <item>
+        <name>Banana</name>
+        <price>0.30</price>
+        <quantity>150</quantity>
+    </item>
+
+    <item>
+        <name>Orange</name>
+        <price>0.40</price>
+        <quantity>120</quantity>
+    </item>
+
+    <item>
+        <name>Grapes</name>
+        <price>2.00</price>
+        <quantity>80</quantity>
+    </item>
+
+    <item>
+        <name>Strawberry</name>
+        <price>1.50</price>
+        <quantity>60</quantity>
+    </item> 
+
+</product>

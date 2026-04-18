@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<information>
+    <student>
+        <rollno>3301</rollno>
+        <name>kartik</name>
+        <class>tybcs</class>
+    </student>
+
+    <student>
+        <rollno>3302</rollno>
+        <name>Ajay</name>
+        <class>tybcs</class>
+    </student>
+
+    <student>
+        <rollno>3303</rollno>
+        <name>vijay</name>
+        <class>tybcs</class>
+    </student>
+
+    <student>
+        <rollno>3304</rollno>
+        <name>Arjun</name>
+        <class>tybcs</class>
+    </student>
+
+    <student>
+        <rollno>3305</rollno>
+        <name>Mahesh</name>
+        <class>tybcs</class>
+    </student>
+</information>

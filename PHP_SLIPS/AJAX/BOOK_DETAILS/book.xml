@@ -1,0 +1,22 @@
+<books>
+    <book>
+        <title>Java</title>
+        <author>James</author>
+        <year>2020</year>
+        <price>500</price>
+    </book>
+
+    <book>
+        <title>PHP</title>
+        <author>Rasmus</author>
+        <year>2019</year>
+        <price>400</price>
+    </book>
+
+    <book>
+        <title>Python</title>
+        <author>Guido</author>
+        <year>2021</year>
+        <price>600</price>
+    </book>
+</books>

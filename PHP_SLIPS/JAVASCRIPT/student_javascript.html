@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Form</title>
+
+    <script>
+        // On load event
+        function pageLoad() {
+            alert("Page Loaded");
+        }
+
+        // On blur (textbox सोडल्यावर)
+        function checkName() {
+            var name = document.getElementById("name").value;
+
+            if (name != "") {
+                document.getElementById("msg").style.color = "red";
+                document.getElementById("msg").style.fontSize = "18px";
+                document.getElementById("msg").innerHTML = "Hello " + name;
+            } else {
+                document.getElementById("img").style.display = "block";
+            }
+        }
+
+        // Mouse hover (mouseover)
+        function enlargeImg() {
+            document.getElementById("img").style.width = "300px";
+        }
+
+        // Mouse click
+        function clickImg() {
+            document.getElementById("img").style.height = "300px";
+        }
+
+        // Mouse up
+        function resetImg() {
+            document.getElementById("img").style.width = "150px";
+            document.getElementById("img").style.height = "150px";
+        }
+    </script>
+</head>
+
+<body onload="pageLoad()">
+
+    Enter Student Name:
+    <input type="text" id="name" onblur="checkName()">
+    <br><br>
+
+    <p id="msg"></p>
+
+    <!-- Image -->
+    <img id="img" src="C:\xampp\htdocs\PHP_SLIPS\wallpaper.jpg"
+         style="display:none;"
+         onmouseover="enlargeImg()"
+         onclick="clickImg()"
+         onmouseup="resetImg()">
+
+</body>
+</html>

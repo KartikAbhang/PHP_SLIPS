@@ -1,0 +1,55 @@
+<html>
+<head>
+<script>
+function showBook(str) {
+    var xhttp = new XMLHttpRequest();
+
+    xhttp.onreadystatechange = function() {
+        if(this.readyState == 4 && this.status == 200) {
+            var xml = this.responseXML;
+            var books = xml.getElementsByTagName("book");
+
+            var output = "";
+
+            for(var i=0; i<books.length; i++) {
+                var title = books[i].getElementsByTagName("title")[0].childNodes[0].nodeValue;
+
+                if(title == str) {
+                    var author = books[i].getElementsByTagName("author")[0].childNodes[0].nodeValue;
+                    var year = books[i].getElementsByTagName("year")[0].childNodes[0].nodeValue;
+                    var price = books[i].getElementsByTagName("price")[0].childNodes[0].nodeValue;
+
+                    output = "Title: " + title + "<br>";
+                    output += "Author: " + author + "<br>";
+                    output += "Year: " + year + "<br>";
+                    output += "Price: " + price;
+                }
+            }
+
+            document.getElementById("data").innerHTML = output;
+        }
+    };
+
+    xhttp.open("GET", "books.xml", true);
+    xhttp.send();
+}
+</script>
+</head>
+
+<body>
+
+<h2>Select Book</h2>
+
+<select onchange="showBook(this.value)">
+    <option value="">Select Book</option>
+    <option value="Java">Java</option>
+    <option value="PHP">PHP</option>
+    <option value="Python">Python</option>
+</select>
+
+<br><br>
+
+<div id="data"></div>
+
+</body>
+</html>
